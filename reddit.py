@@ -4,7 +4,6 @@ import time
 #This function takes subreddits and attributes as input
 #It iterates through the subreddits provided and retrieves every attribute from each post found within each post within the subreddits
 #The function returns an array called data filled with dictionaries each containing an individual post info
-
 def get_data(subreddits, attributes, limiter, sleeptime):
     #Connection to reddit api, requires private key and client id which can be made found by making a reddit api key
     reddit = praw.Reddit(
