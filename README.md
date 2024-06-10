@@ -51,7 +51,7 @@ To get the development environment running, follow these steps:
 
 ### Notebooks:
 - Open collection.ipynb to see the data collection process.
-- Use eda.ipynb for exploratory data analysis. Alongside the process, A/B Testing was applied to determine what is the optimal range to handle a metric.
+- Use eda.ipynb for exploratory data analysis. Alongside the process, A/B Testing was applied to determine what is the optimal range to handle a metric. **To access A/B Testing results, go into the stories file after cloning the repo and open the ab_test_results folder. Once opened, click any of the result HTML files, and a table will open within the browser.**
 - predictive_analysis.ipynb contains the predictive modeling steps. XGBRegressor was used to create the model.
 
 ## Features
